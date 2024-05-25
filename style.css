@@ -9,7 +9,9 @@
     font-family: "Freeman", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgba(37,38,42,255);
+    color:rgb(255, 255, 255);
+
+    background-color: rgba(52,53,58,255);
 }
 
 /* --------------------Navigation/Head Bar-------------------- */
@@ -19,15 +21,21 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 10px;
-        background-color: rgba(37,38,42,255);
+        background-color: rgba(52,53,58,255);
     }
+
+#N_logo_head{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
 
 #first-name {
 /* FIRST NAME */
     font-size: 45px;
-    color: rgb(0, 255, 0);
+    color: rgba(245,196,105,255);
     font-weight: lighter;
-    font-family: "Space Mono", sans-serif;
+    font-family: "Radio Canada Big", sans-serif;
     font-style: normal; 
 }
 
@@ -36,7 +44,7 @@ header {
     font-size: 30px;
     color: rgb(255, 255, 255);
     font-weight: lighter;
-    font-family: "Space Mono", sans-serif;
+    font-family: "Radio Canada Big", sans-serif;
     font-style: normal; 
 }
 
@@ -46,7 +54,6 @@ header {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
-    font-weight: 600;
 
     font-family: "Radio Canada Big", sans-serif;
     font-optical-sizing: auto;
@@ -55,7 +62,7 @@ header {
 }
 .links a:hover {
 /* BUTTONS HOVER EFFECTS */
-    color:rgb(0, 255, 0);
+    color:rgba(240,191,108,255);
     text-decoration: double;
 }
 
@@ -83,14 +90,6 @@ header {
         color:rgb(255, 81, 0);
         text-decoration: underline;
     }
-
-img {
-    /* PROFILE PICTURE */
-    vertical-align: top;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-}
 
 /* --------------------FORM SECTION-------------------- */
 form { max-width:420px; margin:50px auto; }
