@@ -24,36 +24,30 @@ header {
         background-color: rgba(52,53,58,255);
     }
 
-#N_logo_head{
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-}
-
 #first-name {
-/* FIRST NAME */
-    font-size: 45px;
-    color: rgba(245,196,105,255);
-    font-weight: lighter;
-    font-family: "Radio Canada Big", sans-serif;
-    font-style: normal; 
-}
-
-#name {
-/* NAME */
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-weight: lighter;
-    font-family: "Radio Canada Big", sans-serif;
-    font-style: normal; 
-}
+    /* FIRST NAME */
+        font-size: 40px;
+        color: rgba(245,196,105,255);
+        font-weight: lighter;
+        font-family: "Radio Canada Big", sans-serif;
+        font-style: normal; 
+    }
+    
+    #name {
+    /* NAME */
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        font-family: "Radio Canada Big", sans-serif;
+        font-style: normal; 
+    }
 
 .links a {
 /* LINKS */
     margin-right: 15px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 
     font-family: "Radio Canada Big", sans-serif;
     font-optical-sizing: auto;
@@ -66,7 +60,7 @@ header {
     text-decoration: double;
 }
 
-.left {
+.n_logo {
 /* LEFT ELEMENTS */
     display: flexbox;
     align-items: center;
@@ -91,47 +85,25 @@ header {
         text-decoration: underline;
     }
 
-/* --------------------FORM SECTION-------------------- */
-form { max-width:420px; margin:50px auto; }
-.feedback-input {
-    color:white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-    font-size: 18px;
-    border-radius: 5px;
-    line-height: 22px;
-    background-color: transparent;
-    border:2px solid #CC6666;
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width:100%;
-    box-sizing: border-box;
-    outline:0;
-  }
-  
-  .feedback-input:focus { border:2px solid #CC4949; }
-  
-  textarea {
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-  }
-  
-  [type="submit"] {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 100%;
-    background:#CC6666;
-    border-radius:5px;
-    border:0;
-    cursor:pointer;
-    color:white;
-    font-size:24px;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-  }
-    /* BUTTONS HOVER EFFECTS */
-  [type="submit"]:hover { background:#CC4949; }
+/* --------------------PRESENTATION SECTION-------------------- */
+.presentation_text1, .presentation_text2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+#presentation_name {
+    color: rgba(245,196,105,255);
+    text-decoration: none;
+    font-size: 30px;
+
+    font-family: serif, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
